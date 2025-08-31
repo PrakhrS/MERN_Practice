@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    background-color: black;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    font-family: Inter;
+    
+
+}
+.card{
+    display: flex;
+    background-color: hsl(0, 0%, 12%);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    max-width: 340px;
+    width: 100%;
+    padding: 20px 0 20px 0;
+
+}
+#avatar {
+    border-radius: 100px;
+    height: 100px;
+    width: auto;
+
+}
+h2 {
+    color: white;
+    /* background-color: green; */
+    margin-top: 25px;
+}
+
+h5{
+    color: hsl(75, 94%, 57%);
+    /* background-color: aquamarine; */
+    margin-top: 10px;
+    
+}
+.p1{
+    margin-top: 30px;
+    color: rgb(195, 191, 191);
+    font-size: 12px;
+
+}
+
+.links{
+    margin-top: 15px;
+    display: flex;
+    /* background-color: aqua; */
+    flex-direction: column;
+    gap: 15px;    
+}
+
+.links a{
+    display: block;
+    color: white;
+    
+    padding: 10px 100px 10px 100px;
+    background-color: hsl(0, 0%, 20%);
+    border-radius: 5px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 13px;
+    text-decoration:none;
+}
+
+.links a:hover{
+    text-decoration: underline;
+    color:hsl(75, 94%, 57%) ;
+    background-color: hsl(0, 0%, 39%);
+    box-shadow: 3px 3px 3px 0px rgb(20, 20, 20);
+}

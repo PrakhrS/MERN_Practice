@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  
+  <title>Blog preview card</title>
+  <style>
+    * {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+    }
+    body {
+      background-color: hsl(47, 88%, 63%);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: "Figtree", sans-serif;
+      font-weight: 500;
+      height: 100vh;
+    }
+    .card {
+      background-color: white;
+      border-radius: 20px;
+      padding: 20px;
+      /* box-shadow: 0 8px 20px rgba(0,0,0,0.15); */
+      box-shadow:7px 7px 0px 0px black;
+      max-width: 380px;
+      width: 100%;
+
+    }
+    .image {
+      border-radius: 10px;
+    }
+    .learning {
+      display: inline-block;
+      background-color: hsl(47, 88%, 63%);
+      padding: 5px 10px 5px 10px;
+      border-radius: 5px;
+      margin-top: 20px;
+      font-weight: 800;
+    }
+    .published {
+      margin-top: 15px ;
+      
+      font-size: 15px;
+    }
+    .title {
+      margin-top: 15px;
+    }
+    .para{
+      margin-top: 15px;
+      color: grey;
+      line-height: 1.5;
+    }
+    .author {
+      display: flex;
+      margin-top: 20px;
+      align-items: center;
+    }
+    .author-img{
+      height: 35px;
+      width: 35px;
+      margin-right: 10px;
+    }
+    .name {
+      font-size: 14px;
+      font-weight: 700;
+    }
+  </style>
+</head>
+<body>
+  <main class="card">
+    <img src="assets/images/illustration-article.svg" alt="image" class="image">
+    <article class="content">
+
+      <div class="learning">Learning</div>
+
+      <p class="published">Published 30 Aug 2025</p>
+
+      <header class="title">
+        <h1>HTML & CSS foundations</h1>
+      </header>
+
+      <p class="para"> These languages are the backbone of every website, defining structure, content, and presentation</p>
+    </article>
+    <footer class="author">
+      <img src="assets/images/image-avatar.webp" alt="Author-Image" class="author-img">
+      <p class="name">Prakhar Soni</p>
+    </footer>
+  </main>
+</body>
+</html>
